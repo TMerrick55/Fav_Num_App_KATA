@@ -1,0 +1,10 @@
+Really, your only <%=age%>? I don't believe it! Moving on, what are your 3 favorite numbers <%=username%>?
+
+<form action= 'favorite_numbers' method= 'post'>
+		<input type= 'number' name= 'fav_num1_input'>
+		<input type= 'number' name= 'fav_num2_input'>
+		<input type= 'number' name= 'fav_num3_input'>
+		<input type= 'text' name= 'name_input' value= <%=username%> hidden>
+		<input type= 'number' name= 'age_input' value= <%=age%> hidden>
+		<p><input type= 'submit'></p>
+</form>
